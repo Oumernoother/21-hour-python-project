@@ -53,5 +53,5 @@ init_turtle()
 random.shuffle(COLORS)
 colors = COLORS[:racers] # pick the first item
 winner = race(colors)
-print(winner)
-time.sleep(5)
+print("the winner is the the turtle with color: ",winner)
+time.sleep(2)
