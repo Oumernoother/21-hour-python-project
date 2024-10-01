@@ -1,9 +1,9 @@
 import curses
-from curses import wapper
+from curses import wrapper
 
 def main(stdscr):
     stdscr.clear()
     stdscr.addstr("Hello word!")
     stdscr.refresh()
     stdscr.getkey()
-wapper(main)
+wrapper(main)
