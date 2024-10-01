@@ -40,6 +40,7 @@ def create_turtles(colors):
         racer.setpos(-WIDTH//2 + (i + 1) * spacingx, -HEIGHT//2 + 20)
         racer.pendown()
         turtles.append(racer)
+    return turtles
 
 
 def init_turtle():
@@ -53,4 +54,4 @@ random.shuffle(COLORS)
 colors = COLORS[:racers] # pick the first item
 winner = race(colors)
 print(winner)
-time.sleep(2)
+time.sleep(5)
